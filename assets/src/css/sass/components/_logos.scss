@@ -1,0 +1,14 @@
+.logos {
+    padding: 48px 0;
+    
+    &__slide {
+        display: flex;
+        align-items: center;
+        width: 24%;
+
+        img {
+            margin: 0 auto;
+            max-width: 240px;
+        }
+    }
+}

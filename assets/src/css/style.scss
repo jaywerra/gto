@@ -1,0 +1,12 @@
+
+// Vendor
+@import "@glidejs/glide/src/assets/sass/glide.core";
+
+// Base Styles
+@import "./sass/base/**/*.scss";
+
+// Page Blocks
+@import "sass/blocks/**/*.scss";
+
+// Components
+@import "sass/components/**/*.scss";

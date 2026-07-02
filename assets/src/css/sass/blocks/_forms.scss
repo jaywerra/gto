@@ -1,0 +1,22 @@
+.wpcf7 {
+    .wpcf7-form-control {
+        margin: 12px 0 16px;
+        max-width: 600px;
+        padding: 18px;
+        width: 100%;
+        border: none;
+
+        &:not(.wpcf7-submit) {
+            background: var(--grey100);
+        }
+
+        &.wpcf7-submit {
+            min-width: 220px;
+            width: auto;
+            cursor: pointer;
+        }
+    }
+    textarea {
+        resize: none;
+    }
+}

@@ -1,0 +1,41 @@
+.block-pricing {
+    height: 100%;
+    margin-bottom: 80px;
+    width: 100%;
+    border: 1px solid var(--grey200);
+    text-align: center;
+
+    @media(min-width: 900px) {
+        margin-bottom: 40px;
+        width: 32%;
+    }
+    
+    &__header {
+        padding: 20px 0;
+        background: var(--blue100);
+        color: var(--white100);
+
+        h2 {
+            font-size: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
+
+    .button {
+        position: relative;
+        top: 27px;
+    }
+
+    ul {
+        padding: 0 16px;
+        li {
+            padding: 18px 0;
+            border-bottom: 1px solid var(--grey200);
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}

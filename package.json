@@ -1,0 +1,50 @@
+{
+  "name": "gto",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Group Travel Odyssey",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod",
+    "add": "git add ./wp-content/themes/grouptravelodyssey/assets/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Werra Design",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.17.7",
+    "@glidejs/glide": "^3.4.1",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.13",
+    "del": "^5.1.0",
+    "dom-slider": "^1.6.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.1",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "pre-commit": "^1.2.2",
+    "promise-polyfill": "^8.2.0",
+    "stickybits": "^3.7.7",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.46.0",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^14.2.3"
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "gsap": "^3.5.1",
+    "micromodal": "^0.4.6",
+    "node-sass": "^5.0.0"
+  }
+}

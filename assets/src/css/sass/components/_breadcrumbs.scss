@@ -1,0 +1,13 @@
+.breadcrumbs {
+    padding: 16px 16px;
+    background: var(--grey100);
+    border-bottom: 1px solid var(--grey200);
+
+    @media(min-width: 900px) {
+        padding: 16px 40px;
+    }
+}
+
+.home .breadcrumbs {
+    display: none;
+}

@@ -1,0 +1,17 @@
+.block-packages {
+    &__item {
+        margin-bottom: 20px;
+        padding: 32px 20px;
+        width: 100%;
+
+        @media(min-width: 900px) {
+            margin-bottom: 2%;
+            padding: 20px;
+            width: 48%;
+        }
+
+        h2 {
+            margin-bottom: 40px;
+        }
+    }
+}
